@@ -109,7 +109,7 @@ a:hover{
 
 
 span{
-    color: var(--header-background);
+    color:#e4a284;
     text-decoration: var(--header-background) dotted underline;
     margin-left: 9px;
     margin-right: 9px;
