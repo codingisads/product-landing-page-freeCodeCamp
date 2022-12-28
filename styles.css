@@ -83,6 +83,7 @@ a:hover{
         margin: 0 auto;
         line-height: 50px;
         font-size: 18px;
+        position: absolute;
     }
     #header > *{
         display: flex;
