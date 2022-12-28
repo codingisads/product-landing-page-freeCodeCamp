@@ -253,6 +253,7 @@ span{
     }
     .pricing-plan{
         width: auto;
+        margin-bottom: 80px;
     }
 }
 
