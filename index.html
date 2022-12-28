@@ -5,10 +5,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="freeCodeCamp Survey Form">
-    <link rel="stylesheet" href="style.css">
-    <title>Survey Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Landing Page</title>
 </head>
 <body>
 
+    <header id="header">
+        <img id="header-img" src="./img/Lisa's workshop.png" alt="logo">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#form"><h3>Get info</h3></a>
+            <a class="nav-link" href="#features"><h3>Features</h3></a>
+            <a class="nav-link" href="#pricing"><h3>Pricing</h3></a> 
+            
+            
+            <!-- minimum of 3, they redirect to page section -->
+            
+        </nav>
+    </header>
+    <main>
+        <section id="basic-info">
+            <h1><i>Cute, ecologic and <span>high quality</span> sticker sheets!</i></h1>
+        </section>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email">Send me information about your plans!</label>
+            <input id="email" name="email" type="email" placeholder="Enter here your email..." required>
+            <input id="submit" type="submit" value="SEND">
+        </form>
+    
+        <section id="features">
+            <div class="features-section">
+                <img src="./img/2.png" alt="cute-cat-1">
+                <div class="features-section-text">
+                    <h3>Personalized stickers</h3>
+                    <p>Get your own personalized stickers, made with love and exclusively for you!</p>
+                </div>
+               
+            </div>
+            <div class="features-section">
+                <img src="./img/3.png" alt="cute-cat-2">
+                <div class="features-section-text">
+                    <h3>Personalized stickers</h3>
+                    <p>Get your own personalized stickers, made with love and exclusively for you!</p>
+                </div>
+               
+            </div>
+            <div class="features-section">
+                <img src="./img/4.png" alt="cute-cat-3">
+                <div class="features-section-text">
+                    <h3>Personalized stickers</h3>
+                    <p>Get your own personalized stickers, made with love and exclusively for you!</p>
+                </div>
+               
+            </div>
+        </section>
+    
+        <section id="video-section">
+            <h1>Watch a video of cute cats to motivate you!</h1>
+            <iframe width="512" height="315" id="video"
+                src="https://www.youtube.com/embed/jHWKtQHXVJg" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </section>
+        
+        <section id="pricing">
+            <h1>Prices for your <span> monthly subscription</span>:</h1>
+            <div class="prices-items">
+                <div class="pricing-plan">
+                    <h2>Basic Pack</h2>
+                    <h3>5,99€</h3>
+                    <p>5 sticker sheets</p>
+                    <p>1 washi tape</p>
+                    <p>1 big sticker</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-1" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fac5ad" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 7h11a2 2 0 0 1 2 2v.5a0.5 .5 0 0 0 .5 .5a0.5 .5 0 0 1 .5 .5v3a0.5 .5 0 0 1 -.5 .5a0.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2" />
+                        <line x1="7" y1="10" x2="7" y2="14" />
+                      </svg>
+                </div>
+                <div class="pricing-plan">
+                    <h2>Premium Pack</h2>
+                    <h3>9,99€</h3>
+                    <p>Basic pack</p>
+                    <p>+ 2 eligible washi tapes</p>
+                    <p>+ 2 eligible big stickers</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-3" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fac5ad" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 7h11a2 2 0 0 1 2 2v.5a0.5 .5 0 0 0 .5 .5a0.5 .5 0 0 1 .5 .5v3a0.5 .5 0 0 1 -.5 .5a0.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2" />
+                        <line x1="7" y1="10" x2="7" y2="14" />
+                        <line x1="10" y1="10" x2="10" y2="14" />
+                        <line x1="13" y1="10" x2="13" y2="14" />
+                      </svg>
+                </div>
+                <div class="pricing-plan">
+                    <h2>Golden Pack</h2>
+                    <h3>11,99€</h3>
+                    <p>Premium pack</p>
+                    <p>+ unique sticker sheet</p>
+                    <p>+ customizable big sticker</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-4" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fac5ad" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 7h11a2 2 0 0 1 2 2v.5a0.5 .5 0 0 0 .5 .5a0.5 .5 0 0 1 .5 .5v3a0.5 .5 0 0 1 -.5 .5a0.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2" />
+                        <line x1="7" y1="10" x2="7" y2="14" />
+                        <line x1="10" y1="10" x2="10" y2="14" />
+                        <line x1="13" y1="10" x2="13" y2="14" />
+                        <line x1="16" y1="10" x2="16" y2="14" />
+                      </svg>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+   
+    
+
+    <footer>
+        <p>Made with ❤️ by @codingisads</p>
+    </footer>
 </body>
 </html>

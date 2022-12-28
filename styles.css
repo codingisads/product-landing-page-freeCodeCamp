@@ -1,0 +1,265 @@
+
+:root{
+    --header-background: #fac5ad;
+    --background-color: rgb(252, 252, 252);
+    --font-color: rgb(44, 44, 44);
+}
+
+*{    
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body{
+    
+    font-family: 'Hubballi', cursive;
+    background-color: var(--background-color);
+    font-size: 18px;
+    color: var(--font-color);
+}
+
+#header{
+    width: 100%;
+    padding: 20px 70px;
+    
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-background);
+
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+main{
+    width: 100%;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+img{
+    width: 120px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+a:hover{
+    transition: 0.5s;
+    color: var(--background-color);
+}
+
+#nav-bar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 673px) {
+    #header > nav > a {
+        margin-top: 5px;
+    }
+    #header > img{
+        margin-bottom: 5px;
+        width: 60px;
+    }
+    #header{
+        display: block;
+        margin: 0 auto;
+        line-height: 50px;
+        font-size: 18px;
+    }
+    #header > *{
+        display: flex;
+        margin: auto;
+    }
+    #nav-bar{
+        display: block;
+        text-align: center;
+        
+    }
+
+    main{
+        margin-top: 150px;
+    }
+}
+
+#basic-info {
+    margin-top: 100px;
+}
+
+#basic-info > h1{
+    text-align: center;
+}
+
+
+span{
+    color: var(--header-background);
+    text-decoration: var(--header-background) dotted underline;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+#form{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#form > label{
+    text-align: center;
+}
+#form > *{
+    display: block;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#form > *:first-child{
+    margin-top: 0;
+}
+
+#form > input{
+    width: 100%;
+    height: 40px;
+}
+
+#submit{
+    background-color: var(--header-background);
+    color: var(--font-color);
+    font-size: 22px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 50px;
+}
+
+#submit:hover{
+    transition: 0.5s;
+    background-color: var(--background-color);
+    border: 1px solid var(--font-color);
+    cursor: crosshair;
+}
+
+
+
+#features
+{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.features-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.features-section-text{
+    margin-left: 50px;
+}
+
+@media (max-width: 673px) {
+    .features-section{
+        display: block;
+    }
+    .features-section > * {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .features-section-text{
+        display: block;
+        text-align: center;
+    }
+    #video-section > iframe{
+        width: 100%;
+    }
+}
+
+
+#video-section{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#video-section > *{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+
+#video{
+    margin: 0 auto;
+}
+
+#pricing{
+    width: 100%;
+    margin: 100px auto;
+}
+
+
+#pricing > h1, .pricing-plan > h2{
+    text-align: center;
+}
+
+.pricing-plan{
+    line-height: 40px;
+    text-align: center;
+    width: 300px;
+}
+
+.prices-items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.pricing-plan > p{
+    font-size: 22px;
+}
+
+.pricing-plan > svg{
+    display: flex;
+    margin: 0 auto;
+}
+
+@media (max-width: 822px) {
+    #pricing{
+        padding: 0;
+    }
+    .prices-items{
+        display: block;
+    }
+    .pricing-plan{
+        width: auto;
+    }
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 500px;
+    background-color: var(--header-background);
+    height: 200px;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
