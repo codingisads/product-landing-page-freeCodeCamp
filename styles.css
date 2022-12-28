@@ -15,7 +15,7 @@ body{
     
     font-family: 'Hubballi', cursive;
     background-color: var(--background-color);
-    font-size: 18px;
+    font-size: 20px;
     color: var(--font-color);
 }
 
@@ -44,7 +44,7 @@ h1{
 }
 
 img{
-    width: 100px;
+    width: 140px;
 }
 
 a{
@@ -69,6 +69,9 @@ a:hover{
     justify-content: space-between;
 }
 
+#header > img{
+    width: 100px;
+}
 @media (max-width: 673px) {
     #header > nav > a {
         margin-top: 5px;
