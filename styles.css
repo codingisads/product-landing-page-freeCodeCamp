@@ -13,7 +13,7 @@
 
 body{
     
-    font-family: 'Hubballi', cursive;
+    font-family: 'Hubballi', cursive, sans-serif;
     background-color: var(--background-color);
     font-size: 20px;
     color: var(--font-color);
